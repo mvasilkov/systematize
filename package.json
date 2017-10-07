@@ -2,14 +2,20 @@
   "name": "systematize",
   "version": "7.0.0",
   "description": "systematize.scss: normalize styles across browsers. Like normalize.css, but with system fonts.",
-  "main": "normalize.css",
-  "style": "normalize.css",
+  "main": "systematize.css",
+  "style": "systematize.css",
   "files": [
-    "LICENSE.md",
-    "normalize.css"
+    "*.scss",
+    "systematize.css"
   ],
   "repository": "mvasilkov/systematize",
   "license": "MIT",
   "bugs": "https://github.com/mvasilkov/systematize/issues",
-  "homepage": "https://github.com/mvasilkov/systematize"
+  "homepage": "https://github.com/mvasilkov/systematize",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "scripts": {
+    "build": "node-sass systematize.scss systematize.css"
+  }
 }
