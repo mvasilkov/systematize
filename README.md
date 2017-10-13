@@ -1,7 +1,9 @@
 systematize.scss: normalize styles across browsers.
 ===
 
-> Like normalize.css, but with system fonts.
+Like normalize.css, but with system fonts.
+
+---
 
 **Installation**
 
@@ -24,4 +26,15 @@ yarn add systematize
 | `Roboto` | Android
 | `Droid Sans` | Old Android
 | `Helvetica Neue` | Old Apple
-| `sans-serif` | Old generic font family
+| `sans-serif` | Catch-all
+
+**Monospaced Fonts**
+
+| Font family name | Why
+| --- | ---
+| `SFMono-Regular` | Apple
+| `Ubuntu Mono` | Ubuntu
+| `Consolas` | Windows
+| `DejaVu Sans Mono` | Bitstream Vera Sans Mono (Linux)
+| `Menlo` | Bitstream Vera Sans Mono (Apple)
+| `monospace` | Generic font family
