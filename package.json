@@ -6,16 +6,19 @@
   "style": "systematize.css",
   "files": [
     "*.scss",
-    "systematize.css"
+    "*.css"
   ],
   "repository": "mvasilkov/systematize",
   "license": "MIT",
   "bugs": "https://github.com/mvasilkov/systematize/issues",
   "homepage": "https://github.com/mvasilkov/systematize",
   "devDependencies": {
+    "clean-css-cli": "^4.1.10",
     "node-sass": "^4.5.3"
   },
   "scripts": {
-    "build": "node-sass systematize.scss systematize.css"
+    "build": "npm run css && npm run min.css",
+    "css": "node-sass systematize.scss systematize.css",
+    "min.css": "cleancss -o systematize.min.css systematize.css"
   }
 }
