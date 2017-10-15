@@ -1,19 +1,28 @@
-systematize.scss: normalize styles across browsers.
+systematize.scss: normalize styles across browsers
 ===
 
 Like normalize.css, but with system fonts.
 
+[![npm][npm-image]][npm-url]
+
 ---
+
+**This project is an SCSS version of normalize.css** (`7.0.0` at the time of this writing.)
+They share the following functionality:
+
+* Normalize styles across browsers
+* Preserve useful browser defaults, rather than erasing them
+* Correct bugs and common browser inconsistencies
+* Improve usability with subtle changes
+
+Additionally, systematize.scss aims to do the following:
+
+* Default to system fonts, and better typography in general
+* Be slightly more opinionated while retaining clear focus
 
 **Installation**
 
-```sh
-npm i --save systematize
-
-- or -
-
-yarn add systematize
-```
+    npm install --save systematize
 
 **System Fonts**
 
@@ -28,6 +37,8 @@ yarn add systematize
 | `Helvetica Neue` | Old Apple
 | `sans-serif` | Catch-all
 
+Segoe UI comes before system-ui for [reasons][system-ui-reasons].
+
 **Monospaced Fonts**
 
 | Font family name | Why
@@ -38,3 +49,7 @@ yarn add systematize
 | `DejaVu Sans Mono` | Bitstream Vera Sans Mono (Linux)
 | `Menlo` | Bitstream Vera Sans Mono (Apple)
 | `monospace` | Generic font family
+
+[npm-image]: https://img.shields.io/npm/v/systematize.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/systematize
+[system-ui-reasons]: https://infinnie.github.io/blog/2017/systemui.html
