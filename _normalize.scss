@@ -11,7 +11,7 @@
  */
 
 html {
-  font-family: $font-stack; // 1
+  font-family: $sys-font-stack; // 1
   line-height: 1.15; // 2
   -ms-text-size-adjust: 100%; // 3
   -webkit-text-size-adjust: 100%; // 3
@@ -56,12 +56,11 @@ h1 {
 
 /**
  * Add the correct display in IE 9-.
- * 1. Add the correct display in IE.
  */
 
 figcaption,
 figure,
-main { /* 1 */
+main {
   display: block;
 }
 
@@ -85,12 +84,12 @@ hr {
 }
 
 /**
- * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 1. Change the default monospaced font family in all browsers (opinionated).
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
 pre {
-  font-family: monospace, monospace; // 1
+  font-family: $sys-font-stack-mono; // 1
   font-size: 1em; // 2
 }
 
@@ -135,14 +134,14 @@ strong {
 }
 
 /**
- * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 1. Change the default monospaced font family in all browsers (opinionated).
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; // 1
+  font-family: $sys-font-stack-mono; // 1
   font-size: 1em; // 2
 }
 
@@ -233,34 +232,32 @@ svg:not(:root) {
    ========================================================================== */
 
 /**
- * 1. Remove the margin in Firefox and Safari.
+ * Remove the margin in Firefox and Safari.
  */
 
 button,
 input,
 optgroup,
 select,
-textarea { /* 1 */
+textarea {
   margin: 0;
 }
 
 /**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
+ * Show the overflow in Edge.
  */
 
 button,
-input { /* 1 */
+input {
   overflow: visible;
 }
 
 /**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
+ * Remove the inheritance of text transform in Firefox.
  */
 
 button,
-select { /* 1 */
+select {
   text-transform: none;
 }
 
@@ -271,7 +268,7 @@ select { /* 1 */
  */
 
 button,
-html [type="button"], /* 1 */
+html [type="button"], // 1
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button; // 2
@@ -396,10 +393,9 @@ textarea {
 
 /*
  * Add the correct display in IE 9-.
- * 1. Add the correct display in Edge, IE, and Firefox.
  */
 
-details, /* 1 */
+details,
 menu {
   display: block;
 }

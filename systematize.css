@@ -44,12 +44,10 @@ h1 {
    ========================================================================== */
 /**
  * Add the correct display in IE 9-.
- * 1. Add the correct display in IE.
  */
 figcaption,
 figure,
 main {
-  /* 1 */
   display: block; }
 
 /**
@@ -68,11 +66,11 @@ hr {
   overflow: visible; }
 
 /**
- * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 1. Change the default monospaced font family in all browsers (opinionated).
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
+  font-family: "SFMono-Regular", "Ubuntu Mono", Consolas, "DejaVu Sans Mono", Menlo, monospace;
   font-size: 1em; }
 
 /* Text-level semantics
@@ -107,13 +105,13 @@ strong {
   font-weight: bolder; }
 
 /**
- * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 1. Change the default monospaced font family in all browsers (opinionated).
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family: "SFMono-Regular", "Ubuntu Mono", Consolas, "DejaVu Sans Mono", Menlo, monospace;
   font-size: 1em; }
 
 /**
@@ -183,32 +181,27 @@ svg:not(:root) {
 /* Forms
    ========================================================================== */
 /**
- * 1. Remove the margin in Firefox and Safari.
+ * Remove the margin in Firefox and Safari.
  */
 button,
 input,
 optgroup,
 select,
 textarea {
-  /* 1 */
   margin: 0; }
 
 /**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
+ * Show the overflow in Edge.
  */
 button,
 input {
-  /* 1 */
   overflow: visible; }
 
 /**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
+ * Remove the inheritance of text transform in Firefox.
  */
 button,
 select {
-  /* 1 */
   text-transform: none; }
 
 /**
@@ -318,7 +311,6 @@ textarea {
    ========================================================================== */
 /*
  * Add the correct display in IE 9-.
- * 1. Add the correct display in Edge, IE, and Firefox.
  */
 details,
 menu {
