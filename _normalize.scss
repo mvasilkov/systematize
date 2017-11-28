@@ -3,7 +3,7 @@
 /* Document
    ========================================================================== */
 
-/**
+/*
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Correct the line height in all browsers.
  * 3. Prevent adjustments of font size after orientation changes in
@@ -20,7 +20,7 @@ html {
 /* Sections
    ========================================================================== */
 
-/**
+/*
  * Remove the margin in all browsers (opinionated).
  */
 
@@ -28,7 +28,7 @@ body {
   margin: 0;
 }
 
-/**
+/*
  * Add the correct display in IE 9-.
  */
 
@@ -41,7 +41,7 @@ section {
   display: block;
 }
 
-/**
+/*
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
@@ -54,7 +54,7 @@ h1 {
 /* Grouping content
    ========================================================================== */
 
-/**
+/*
  * Add the correct display in IE 9-.
  */
 
@@ -64,7 +64,7 @@ main {
   display: block;
 }
 
-/**
+/*
  * Add the correct margin in IE 8.
  */
 
@@ -72,7 +72,7 @@ figure {
   margin: 1em 40px;
 }
 
-/**
+/*
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
@@ -83,7 +83,7 @@ hr {
   overflow: visible; // 2
 }
 
-/**
+/*
  * 1. Change the default monospaced font family in all browsers (opinionated).
  * 2. Correct the odd `em` font sizing in all browsers.
  */
@@ -96,7 +96,7 @@ pre {
 /* Text-level semantics
    ========================================================================== */
 
-/**
+/*
  * Remove the gray background on active links in IE 10.
  */
 
@@ -104,7 +104,7 @@ a {
   background-color: transparent;
 }
 
-/**
+/*
  * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
@@ -115,7 +115,7 @@ abbr[title] {
   text-decoration: underline dotted; // 2
 }
 
-/**
+/*
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
 
@@ -124,7 +124,7 @@ strong {
   font-weight: inherit;
 }
 
-/**
+/*
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 
@@ -133,7 +133,7 @@ strong {
   font-weight: bolder;
 }
 
-/**
+/*
  * 1. Change the default monospaced font family in all browsers (opinionated).
  * 2. Correct the odd `em` font sizing in all browsers.
  */
@@ -145,7 +145,7 @@ samp {
   font-size: 1em; // 2
 }
 
-/**
+/*
  * Add the correct font style in Android 4.3-.
  */
 
@@ -153,7 +153,7 @@ dfn {
   font-style: italic;
 }
 
-/**
+/*
  * Add the correct background and color in IE 9-.
  */
 
@@ -162,7 +162,7 @@ mark {
   color: #000;
 }
 
-/**
+/*
  * Add the correct font size in all browsers.
  */
 
@@ -170,7 +170,7 @@ small {
   font-size: 80%;
 }
 
-/**
+/*
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
@@ -194,7 +194,7 @@ sup {
 /* Embedded content
    ========================================================================== */
 
-/**
+/*
  * Add the correct display in IE 9-.
  */
 
@@ -203,7 +203,7 @@ video {
   display: inline-block;
 }
 
-/**
+/*
  * Add the correct display in iOS 4-7.
  */
 
@@ -212,7 +212,7 @@ audio:not([controls]) {
   height: 0;
 }
 
-/**
+/*
  * Remove the border on images inside links in IE 10-.
  */
 
@@ -220,7 +220,7 @@ img {
   border-style: none;
 }
 
-/**
+/*
  * Hide the overflow in IE.
  */
 
@@ -231,7 +231,7 @@ svg:not(:root) {
 /* Forms
    ========================================================================== */
 
-/**
+/*
  * Remove the margin in Firefox and Safari.
  */
 
@@ -243,7 +243,7 @@ textarea {
   margin: 0;
 }
 
-/**
+/*
  * Show the overflow in Edge.
  */
 
@@ -252,7 +252,7 @@ input {
   overflow: visible;
 }
 
-/**
+/*
  * Remove the inheritance of text transform in Firefox.
  */
 
@@ -261,7 +261,7 @@ select {
   text-transform: none;
 }
 
-/**
+/*
  * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
@@ -274,7 +274,7 @@ html [type="button"], // 1
   -webkit-appearance: button; // 2
 }
 
-/**
+/*
  * Remove the inner border and padding in Firefox.
  */
 
@@ -286,7 +286,7 @@ button::-moz-focus-inner,
   padding: 0;
 }
 
-/**
+/*
  * Restore the focus styles unset by the previous rule.
  */
 
@@ -297,7 +297,7 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText;
 }
 
-/**
+/*
  * Correct the padding in Firefox.
  */
 
@@ -305,7 +305,7 @@ fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
 
-/**
+/*
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
  * 3. Remove the padding so developers are not caught out when they zero out
@@ -321,7 +321,7 @@ legend {
   white-space: normal; // 1
 }
 
-/**
+/*
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
@@ -331,7 +331,7 @@ progress {
   vertical-align: baseline; // 2
 }
 
-/**
+/*
  * Remove the default vertical scrollbar in IE.
  */
 
@@ -339,7 +339,7 @@ textarea {
   overflow: auto;
 }
 
-/**
+/*
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
@@ -350,7 +350,7 @@ textarea {
   padding: 0; // 2
 }
 
-/**
+/*
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
@@ -359,7 +359,7 @@ textarea {
   height: auto;
 }
 
-/**
+/*
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
@@ -369,7 +369,7 @@ textarea {
   outline-offset: -2px; // 2
 }
 
-/**
+/*
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
 
@@ -378,7 +378,7 @@ textarea {
   -webkit-appearance: none;
 }
 
-/**
+/*
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
@@ -411,7 +411,7 @@ summary {
 /* Scripting
    ========================================================================== */
 
-/**
+/*
  * Add the correct display in IE 9-.
  */
 
@@ -419,7 +419,7 @@ canvas {
   display: inline-block;
 }
 
-/**
+/*
  * Add the correct display in IE.
  */
 
@@ -430,7 +430,7 @@ template {
 /* Hidden
    ========================================================================== */
 
-/**
+/*
  * Add the correct display in IE 10-.
  */
 
