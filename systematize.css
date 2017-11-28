@@ -4,12 +4,14 @@
 /*
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Correct the line height in all browsers.
- * 3. Prevent adjustments of font size after orientation changes in
+ * 3. Force a non-overlapping, non-auto-hiding scrollbar in IE11 and Edge.
+ * 4. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, Roboto, "Droid Sans", "Helvetica Neue", sans-serif;
   line-height: 1.15;
+  -ms-overflow-style: scrollbar;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
@@ -150,6 +152,18 @@ sub {
 sup {
   top: -0.5em; }
 
+/*
+ * 1. Remove the text shadow on text selections (opinionated).
+ * 2. Restore the coloring undone by defining the text shadow (opinionated).
+ */
+::-moz-selection {
+  background-color: #b3d4fc;
+  text-shadow: none; }
+
+::selection {
+  background-color: #b3d4fc;
+  text-shadow: none; }
+
 /* Embedded content
    ========================================================================== */
 /*
@@ -263,10 +277,12 @@ progress {
   vertical-align: baseline; }
 
 /*
- * Remove the default vertical scrollbar in IE.
+ * 1. Remove the default vertical scrollbar in IE.
+ * 2. Allow only vertical resizing of textareas (opinionated).
  */
 textarea {
-  overflow: auto; }
+  overflow: auto;
+  resize: vertical; }
 
 /*
  * 1. Add the correct box sizing in IE 10-.
