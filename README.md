@@ -33,7 +33,6 @@ Additionally, systematize.scss aims to do the following:
 | `Segoe UI` | Windows
 | `system-ui` | Generic font family
 | `Roboto` | Android
-| `Droid Sans` | Old Android
 | `Helvetica Neue` | Old Apple
 | `sans-serif` | Catch-all
 

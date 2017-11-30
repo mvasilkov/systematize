@@ -199,12 +199,12 @@ sup {
  */
 
 ::-moz-selection {
-  background-color: #b3d4fc; // 2
+  background-color: $sys-selection-background; // 2
   text-shadow: none; // 1
 }
 
 ::selection {
-  background-color: #b3d4fc; // 2
+  background-color: $sys-selection-background; // 2
   text-shadow: none; // 1
 }
 

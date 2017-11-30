@@ -1,7 +1,15 @@
-// Use system fonts (opinionated).
+//
+// Opinionated defaults
+//
 
-$sys-font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, 'Droid Sans', 'Helvetica Neue', sans-serif;
+// System fonts
 
-// Monospaced fonts (opinionated).
+$sys-font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, 'Helvetica Neue', sans-serif;
+
+// Monospaced fonts
 
 $sys-font-stack-mono: 'SFMono-Regular', 'Ubuntu Mono', Consolas, 'DejaVu Sans Mono', Menlo, monospace;
+
+// Selection background color
+
+$sys-selection-background: #b3d4fc;
