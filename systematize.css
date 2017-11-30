@@ -3,14 +3,14 @@
    ========================================================================== */
 /*
  * 1. Change the default font family in all browsers (opinionated).
- * 2. Correct the line height in all browsers.
+ * 2. Set large line height in all browsers (opinionated).
  * 3. Force a non-overlapping, non-auto-hiding scrollbar in IE11 and Edge.
  * 4. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, Roboto, "Helvetica Neue", sans-serif;
-  line-height: 1.15;
+  line-height: 1.58;
   -ms-overflow-style: scrollbar;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
@@ -192,6 +192,14 @@ img {
 svg:not(:root) {
   overflow: hidden; }
 
+/* Tabular data
+   ========================================================================== */
+/*
+ * Collapse border spacing
+ */
+table {
+  border-collapse: collapse; }
+
 /* Forms
    ========================================================================== */
 /*
@@ -278,7 +286,7 @@ progress {
 
 /*
  * 1. Remove the default vertical scrollbar in IE.
- * 2. Allow only vertical resizing of textareas (opinionated).
+ * 2. Change the resize direction on textareas in all browsers (opinionated).
  */
 textarea {
   overflow: auto;
@@ -323,7 +331,7 @@ textarea {
   -webkit-appearance: button;
   font: inherit; }
 
-/* Interactive
+/* Interactive elements
    ========================================================================== */
 /*
  * Add the correct display in IE 9-.
@@ -352,8 +360,24 @@ canvas {
 template {
   display: none; }
 
-/* Hidden
+/* User interaction
    ========================================================================== */
+/*
+ * Remove the tapping delay on clickable elements (opinionated).
+ * 1. Remove the tapping delay in IE 10.
+ */
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea,
+[tabindex] {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation; }
+
 /*
  * Add the correct display in IE 10-.
  */
