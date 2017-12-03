@@ -30,6 +30,7 @@ article,
 aside,
 footer,
 header,
+hgroup,
 nav,
 section {
   display: block; }
@@ -88,7 +89,7 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
+  border-bottom: 0;
   text-decoration: underline;
   text-decoration: underline dotted; }
 
@@ -179,6 +180,12 @@ video {
 audio:not([controls]) {
   display: none;
   height: 0; }
+
+/*
+ * Remove the border on `iframe` elements in all browsers (opinionated).
+ */
+iframe {
+  border: 0; }
 
 /*
  * Remove the border on images inside links in IE 10-.
@@ -383,3 +390,9 @@ textarea,
  */
 [hidden] {
   display: none; }
+
+/*
+ * Suppress the focus outline on elements that cannot be accessed via keyboard.
+ */
+[tabindex="-1"]:focus {
+  outline: 0; }

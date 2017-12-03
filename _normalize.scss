@@ -38,6 +38,7 @@ article,
 aside,
 footer,
 header,
+hgroup,
 nav,
 section {
   display: block;
@@ -112,7 +113,7 @@ a {
  */
 
 abbr[title] {
-  border-bottom: none; // 1
+  border-bottom: 0; // 1
   text-decoration: underline; // 2
   text-decoration: underline dotted; // 2
 }
@@ -227,6 +228,14 @@ video {
 audio:not([controls]) {
   display: none;
   height: 0;
+}
+
+/*
+ * Remove the border on `iframe` elements in all browsers (opinionated).
+ */
+
+iframe {
+  border: 0;
 }
 
 /*
@@ -484,4 +493,12 @@ textarea,
 
 [hidden] {
   display: none;
+}
+
+/*
+ * Suppress the focus outline on elements that cannot be accessed via keyboard.
+ */
+
+[tabindex="-1"]:focus {
+  outline: 0;
 }
