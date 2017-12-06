@@ -4,12 +4,16 @@
 
 // System fonts
 
-$sys-font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, 'Helvetica Neue', sans-serif;
+$sys-font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, 'Helvetica Neue', sans-serif !default;
 
 // Monospaced fonts
 
-$sys-font-stack-mono: 'SFMono-Regular', 'Ubuntu Mono', Consolas, 'DejaVu Sans Mono', Menlo, monospace;
+$sys-font-stack-mono: 'SFMono-Regular', 'Ubuntu Mono', Consolas, 'DejaVu Sans Mono', Menlo, monospace !default;
 
 // Selection background color
 
-$sys-selection-background: #b3d4fc;
+$sys-selection-background: #b3d4fc !default;
+
+// Selection color (optional)
+
+$sys-selection-color: null !default;

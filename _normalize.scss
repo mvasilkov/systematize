@@ -201,11 +201,13 @@ sup {
 
 ::-moz-selection {
   background-color: $sys-selection-background; // 2
+  color: $sys-selection-color;
   text-shadow: none; // 1
 }
 
 ::selection {
   background-color: $sys-selection-background; // 2
+  color: $sys-selection-color;
   text-shadow: none; // 1
 }
 
