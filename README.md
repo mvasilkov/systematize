@@ -53,5 +53,5 @@ There is no Monaco because Menlo shipped with Mac OS X 10.6 Snow Leopard in 1917
 
 [npm-image]: https://img.shields.io/npm/v/systematize.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/systematize
-[size-image]: https://img.shields.io/github/size/mvasilkov/systematize/systematize.min.css.svg?style=flat-square
+[size-image]: https://img.shields.io/github/size/mvasilkov/systematize/build/systematize.min.css.svg?style=flat-square
 [system-ui-reasons]: https://infinnie.github.io/blog/2017/systemui.html
