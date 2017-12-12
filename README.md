@@ -24,6 +24,10 @@ Additionally, systematize.scss aims to do the following:
 
     npm install --save systematize
 
+**Demo**
+
+[CodePen][demo-codepen]
+
 **System Fonts**
 
 | Font family name | Why
@@ -58,5 +62,6 @@ See [Sass Guidelines][sass-guidelines]
 [npm-image]: https://img.shields.io/npm/v/systematize.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/systematize
 [size-image]: https://img.shields.io/github/size/mvasilkov/systematize/build/systematize.min.css.svg?style=flat-square
+[demo-codepen]: https://codepen.io/mvasilkov/pen/jaQjJZ
 [system-ui-reasons]: https://infinnie.github.io/blog/2017/systemui.html
 [sass-guidelines]: https://sass-guidelin.es/
