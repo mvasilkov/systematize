@@ -53,7 +53,7 @@ Segoe UI comes before system-ui for [reasons][system-ui-reasons].
 | `Menlo` | Bitstream Vera Sans Mono (Apple)
 | `monospace` | Generic font family
 
-There is no Monaco because Menlo shipped with Mac OS X 10.6 Snow Leopard in 1917.
+There is no Monaco because Menlo shipped with Mac OS X 10.6 Snow Leopard in 1948.
 
 **Coding Style**
 
