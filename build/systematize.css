@@ -5,14 +5,12 @@
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Set large line height in all browsers (opinionated).
  * 3. Force a non-overlapping, non-auto-hiding scrollbar in IE11 and Edge.
- * 4. Prevent adjustments of font size after orientation changes in
- *    IE on Windows Phone and in iOS.
+ * 4. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, Roboto, "Helvetica Neue", sans-serif;
   line-height: 1.58;
   -ms-overflow-style: scrollbar;
-  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
 /* Sections
@@ -22,18 +20,6 @@ html {
  */
 body {
   margin: 0; }
-
-/*
- * Add the correct display in IE 9-.
- */
-article,
-aside,
-footer,
-header,
-hgroup,
-nav,
-section {
-  display: block; }
 
 /*
  * Correct the font size and margin on `h1` elements within `section` and
@@ -46,18 +32,10 @@ h1 {
 /* Grouping content
    ========================================================================== */
 /*
- * Add the correct display in IE 9-.
+ * Add the correct display in IE.
  */
-figcaption,
-figure,
 main {
   display: block; }
-
-/*
- * Add the correct margin in IE 8.
- */
-figure {
-  margin: 1em 40px; }
 
 /*
  * 1. Add the correct box sizing in Firefox.
@@ -94,13 +72,6 @@ abbr[title] {
   text-decoration: underline dotted; }
 
 /*
- * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
- */
-b,
-strong {
-  font-weight: inherit; }
-
-/*
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 b,
@@ -116,19 +87,6 @@ kbd,
 samp {
   font-family: "SFMono-Regular", "Ubuntu Mono", Consolas, "DejaVu Sans Mono", Menlo, monospace;
   font-size: 1em; }
-
-/*
- * Add the correct font style in Android 4.3-.
- */
-dfn {
-  font-style: italic; }
-
-/*
- * Add the correct background and color in IE 9-.
- */
-mark {
-  background-color: #ff0;
-  color: #000; }
 
 /*
  * Add the correct font size in all browsers.
@@ -168,20 +126,6 @@ sup {
 /* Embedded content
    ========================================================================== */
 /*
- * Add the correct display in IE 9-.
- */
-audio,
-video {
-  display: inline-block; }
-
-/*
- * Add the correct display in iOS 4-7.
- */
-audio:not([controls]) {
-  display: none;
-  height: 0; }
-
-/*
  * Remove the border on `iframe` elements in all browsers (opinionated).
  */
 iframe {
@@ -192,12 +136,6 @@ iframe {
  */
 img {
   border-style: none; }
-
-/*
- * Hide the overflow in IE.
- */
-svg:not(:root) {
-  overflow: hidden; }
 
 /* Tabular data
    ========================================================================== */
@@ -234,12 +172,10 @@ select {
   text-transform: none; }
 
 /*
- * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
- *    controls in Android 4.
- * 2. Correct the inability to style clickable types in iOS and Safari.
+ * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-html [type="button"],
+[type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button; }
@@ -284,11 +220,9 @@ legend {
   white-space: normal; }
 
 /*
- * 1. Add the correct display in IE 9-.
- * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
-  display: inline-block;
   vertical-align: baseline; }
 
 /*
@@ -324,9 +258,8 @@ textarea {
   outline-offset: -2px; }
 
 /*
- * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
@@ -341,10 +274,9 @@ textarea {
 /* Interactive elements
    ========================================================================== */
 /*
- * Add the correct display in IE 9-.
+ * Add the correct display in Edge, IE 10+, and Firefox.
  */
-details,
-menu {
+details {
   display: block; }
 
 /*
@@ -355,12 +287,6 @@ summary {
 
 /* Scripting
    ========================================================================== */
-/*
- * Add the correct display in IE 9-.
- */
-canvas {
-  display: inline-block; }
-
 /*
  * Add the correct display in IE.
  */
