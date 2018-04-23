@@ -51,7 +51,7 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: "SFMono-Regular", "Ubuntu Mono", Consolas, "DejaVu Sans Mono", Menlo, monospace;
+  font-family: "SFMono-Regular", "SF Mono", "Ubuntu Mono", Consolas, "DejaVu Sans Mono", Menlo, monospace;
   font-size: 1em; }
 
 /* Text-level semantics
@@ -85,7 +85,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: "SFMono-Regular", "Ubuntu Mono", Consolas, "DejaVu Sans Mono", Menlo, monospace;
+  font-family: "SFMono-Regular", "SF Mono", "Ubuntu Mono", Consolas, "DejaVu Sans Mono", Menlo, monospace;
   font-size: 1em; }
 
 /*
