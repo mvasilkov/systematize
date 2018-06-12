@@ -1,6 +1,6 @@
 {
   "name": "systematize",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "systematize.scss: normalize styles across browsers. Like normalize.css, but with system fonts.",
   "keywords": [
     "css",
@@ -22,8 +22,8 @@
   "bugs": "https://github.com/mvasilkov/systematize/issues",
   "homepage": "https://github.com/mvasilkov/systematize",
   "devDependencies": {
-    "clean-css-cli": "^4.1.10",
-    "node-sass": "^4.5.3"
+    "clean-css-cli": "^4.1.11",
+    "node-sass": "^4.9.0"
   },
   "scripts": {
     "build": "npm run css && npm run min.css",

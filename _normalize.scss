@@ -193,7 +193,9 @@ table {
    ========================================================================== */
 
 /*
- * Remove the margin in Firefox and Safari.
+ * 1. Change the font family and size in all browsers (opinionated).
+ * 2. Set large line height in all browsers (opinionated).
+ * 3. Remove the margin in Firefox and Safari.
  */
 
 button,
@@ -201,7 +203,10 @@ input,
 optgroup,
 select,
 textarea {
-  margin: 0;
+  font-family: inherit; // 1
+  font-size: 100%; // 1
+  line-height: 1.58; // 2
+  margin: 0; // 3
 }
 
 /*
