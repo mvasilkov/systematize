@@ -46,7 +46,7 @@ Segoe UI comes before system-ui for [reasons][system-ui-reasons].
 
 | Font family name | Why
 | --- | ---
-| `SFMono-Regular` | Apple
+| `SF Mono` | Apple
 | `Ubuntu Mono` | Ubuntu
 | `Consolas` | Windows
 | `DejaVu Sans Mono` | Bitstream Vera Sans Mono (Linux)
