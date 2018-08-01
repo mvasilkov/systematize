@@ -1,5 +1,10 @@
 @charset 'utf-8';
 
+//
+// Typography settings
+// Based on the Medium website, hence the filename
+//
+
 .container {
     margin: 0 auto;
     max-width: 700px;
@@ -52,6 +57,11 @@ blockquote {
 code, pre {
     font-size: 17px;
     letter-spacing: 0;
+}
+
+// Intended to add spacing after headings
+pre {
+    margin-top: 4px;
 }
 
 ol, ul {
@@ -135,6 +145,11 @@ hr {
 
     code, pre {
         font-size: 15px;
+    }
+
+    // Intended to add spacing after headings
+    pre {
+        margin-top: 3px;
     }
 
     ul > li::before {

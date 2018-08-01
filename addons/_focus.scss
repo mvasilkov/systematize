@@ -1,0 +1,7 @@
+@import 'colors';
+
+:focus {
+    outline: 3px solid $sa-color-focus-solid;
+    outline: 3px solid $sa-color-focus;
+    outline-offset: 1px;
+}
