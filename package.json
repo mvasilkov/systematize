@@ -1,6 +1,6 @@
 {
   "name": "systematize",
-  "version": "3.1.0-addons.0",
+  "version": "3.1.0-addons.1",
   "description": "systematize.scss: normalize styles across browsers. Like normalize.css, but with system fonts.",
   "keywords": [
     "css",
@@ -14,8 +14,8 @@
   "main": "build/systematize.css",
   "style": "build/systematize.css",
   "files": [
-    "*.scss",
-    "*.css"
+    "**/*.scss",
+    "**/*.css"
   ],
   "repository": "mvasilkov/systematize",
   "license": "MIT",
@@ -26,8 +26,10 @@
     "node-sass": "^4.9.0"
   },
   "scripts": {
-    "build": "npm run css && npm run min.css",
+    "build": "npm run css && npm run min.css && npm run addons.css && npm run addons.min.css",
     "css": "node-sass systematize.scss build/systematize.css",
-    "min.css": "cleancss -o build/systematize.min.css build/systematize.css"
+    "min.css": "cleancss -o build/systematize.min.css build/systematize.css",
+    "addons.css": "node-sass addons.scss build/addons.css",
+    "addons.min.css": "cleancss -o build/addons.min.css build/addons.css"
   }
 }
