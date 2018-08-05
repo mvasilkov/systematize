@@ -1,6 +1,3 @@
-$sa-color-background: #fff;
-
 // Based on the Apple Developer website
-$sa-color-hyperlink: #0070c9;
-$sa-color-focus: rgba(131, 192, 253, 0.5);
-$sa-color-focus-solid: #c1e0fe;
+$sa-color-focus: rgba(131, 192, 253, 0.5) !default;
+$sa-color-focus-solid: #c1e0fe !default;

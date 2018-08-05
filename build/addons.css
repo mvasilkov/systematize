@@ -140,13 +140,3 @@ hr {
     font-size: 14.4px; }
   hr {
     margin: 21px 0; } }
-
-a {
-  background: linear-gradient(to bottom, #fff 66.66667%, #2685d1 33.33333%) bottom repeat-x;
-  background-size: 64px 3px;
-  color: #0070c9;
-  padding-bottom: 3px;
-  text-decoration: none; }
-
-a:focus {
-  background-image: none; }

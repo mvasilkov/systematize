@@ -1,5 +1,3 @@
-@import 'colors';
-
 @mixin sa-hyperlink($color, $background-color, $size: 3, $underline-width: 1) {
     $cs-padding: percentage(($size - $underline-width) / $size);
     $cs-underline: percentage($underline-width / $size);
@@ -10,12 +8,8 @@
     color: $color;
     padding-bottom: $size * 1px;
     text-decoration: none;
-}
 
-a {
-    @include sa-hyperlink($sa-color-hyperlink, $sa-color-background);
-}
-
-a:focus {
-    background-image: none;
+    &:focus {
+        background-image: none;
+    }
 }
