@@ -65,6 +65,9 @@ code, pre {
 pre {
   margin-top: 4px; }
 
+pre:first-child {
+  margin-top: 0; }
+
 ol, ul {
   list-style: none;
   padding: 0; }
@@ -136,6 +139,8 @@ hr {
     font-size: 15px; }
   pre {
     margin-top: 3px; }
+  pre:first-child {
+    margin-top: 0; }
   ul > li::before {
     font-size: 14.4px; }
   hr {
