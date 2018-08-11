@@ -4,7 +4,7 @@
     $underline-color: mix($color, $background-color, 85);
 
     background: linear-gradient(to bottom, $background-color $cs-padding, $underline-color $cs-underline) bottom repeat-x;
-    background-size: 64px ($size * 1px);
+    background-size: 1px ($size * 1px);
     color: $color;
     padding-bottom: $size * 1px;
     text-decoration: none;
