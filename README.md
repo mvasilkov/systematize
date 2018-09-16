@@ -33,7 +33,6 @@ Additionally, systematize.scss aims to do the following:
 | Font family name | Why
 | --- | ---
 | `-apple-system` | Apple
-| `BlinkMacSystemFont` | Chromium for macOS
 | `Segoe UI` | Windows
 | `system-ui` | Generic font family
 | `Roboto` | Android
