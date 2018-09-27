@@ -1,12 +1,12 @@
-@mixin sa-hyperlink($color, $background-color, $size: 3, $underline-width: 1) {
+@mixin sa-hyperlink($color, $background-color, $size: 2px, $underline-width: 1px, $padding: 3px) {
     $cs-padding: percentage(($size - $underline-width) / $size);
     $cs-underline: percentage($underline-width / $size);
     $underline-color: mix($color, $background-color, 85);
 
     background: linear-gradient(to bottom, $background-color $cs-padding, $underline-color $cs-underline) bottom repeat-x;
-    background-size: 1px ($size * 1px);
+    background-size: 1px $size;
     color: $color;
-    padding-bottom: $size * 1px;
+    padding-bottom: $padding;
     text-decoration: none;
 
     &:focus {

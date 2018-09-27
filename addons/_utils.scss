@@ -7,3 +7,11 @@
     -moz-osx-font-smoothing: auto;
     -webkit-font-smoothing: subpixel-antialiased;
 }
+
+@mixin sa-not-selectable {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
