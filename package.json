@@ -1,6 +1,6 @@
 {
   "name": "systematize",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "description": "systematize.scss: normalize styles across browsers. Like normalize.css, but with system fonts.",
   "keywords": [
     "css",

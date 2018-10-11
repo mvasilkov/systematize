@@ -1,13 +1,26 @@
-@mixin sa-hyperlink($color, $background-color, $underline-width: 1px, $padding: 3px) {
-    $underline-color: mix($color, $background-color, 85);
+$sa-underline-length: 12px !default;
 
-    background: linear-gradient(to right, $underline-color, $underline-color) bottom no-repeat;
-    background-size: auto $underline-width;
+@mixin sa-hyperlink-base($color, $underline-width, $padding) {
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    background-size: $sa-underline-length $underline-width;
     color: $color;
     padding-bottom: $padding;
     text-decoration: none;
+}
 
-    &:focus {
-        background-image: none;
-    }
+@mixin sa-hyperlink($color, $background-color, $underline-width: 1px, $padding: 3px) {
+    $underline-color: mix($color, $background-color, 85);
+
+    background-image: linear-gradient(to right, $underline-color, $underline-color);
+
+    @include sa-hyperlink-base($color, $underline-width, $padding);
+}
+
+@mixin sa-hyperlink-dashed($color, $background-color, $underline-width: 1px, $padding: 3px) {
+    $underline-color: mix($color, $background-color, 85);
+
+    background-image: linear-gradient(to right, $underline-color 50%, $background-color 50%);
+
+    @include sa-hyperlink-base($color, $underline-width, $padding);
 }
