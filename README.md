@@ -7,7 +7,7 @@ Like normalize.css, but with system fonts.
 
 ---
 
-**This project is an SCSS version of normalize.css** (`8.0.0` at the time of this writing.)
+**This project is an SCSS version of normalize.css** (`8.0.1` at the time of this writing.)
 They share the following functionality:
 
 * Normalize styles across browsers
