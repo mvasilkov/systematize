@@ -42,21 +42,9 @@ h3 {
     letter-spacing: -0.018em;
 }
 
-// These are not meant to be used
-h4, h5, h6 {
-    font-size: 20px;
-    margin: 25px 0 0 -1px;
-    padding-bottom: 4px;
-    line-height: 1.28;
-    letter-spacing: -0.016em;
-}
-
 h1:first-child,
 h2:first-child,
-h3:first-child,
-h4:first-child,
-h5:first-child,
-h6:first-child {
+h3:first-child {
     margin-top: 0;
 }
 
@@ -71,15 +59,6 @@ blockquote {
 code, pre {
     font-size: 17px;
     letter-spacing: 0;
-}
-
-// Intended to add spacing after headings
-pre {
-    margin-top: 4px;
-}
-
-pre:first-child {
-    margin-top: 0;
 }
 
 ol, ul {
@@ -157,30 +136,12 @@ hr {
         letter-spacing: -0.018em;
     }
 
-    // These are not meant to be used
-    h4, h5, h6 {
-        font-size: 18px;
-        margin-left: -1px;
-        margin-top: 18px;
-        line-height: 1.28;
-        letter-spacing: -0.016em;
-    }
-
     blockquote, p, pre, ol, ul {
         margin-bottom: 21px;
     }
 
     code, pre {
         font-size: 15px;
-    }
-
-    // Intended to add spacing after headings
-    pre {
-        margin-top: 3px;
-    }
-
-    pre:first-child {
-        margin-top: 0;
     }
 
     ul > li::before {
