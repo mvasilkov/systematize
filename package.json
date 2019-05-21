@@ -22,8 +22,8 @@
   "bugs": "https://github.com/mvasilkov/systematize/issues",
   "homepage": "https://github.com/mvasilkov/systematize",
   "devDependencies": {
-    "clean-css-cli": "^4.2.1",
-    "node-sass": "^4.11.0"
+    "clean-css-cli": "^4.3.0",
+    "node-sass": "^4.12.0"
   },
   "scripts": {
     "build": "npm run css && npm run min.css && npm run addons.css && npm run addons.min.css",

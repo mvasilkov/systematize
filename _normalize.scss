@@ -203,9 +203,11 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; // 1
-  font-size: 100%; // 1
-  line-height: 1.58; // 2
+  @if $sys-normalize-fonts-inputs == true {
+    font-family: inherit; // 1
+    font-size: 100%; // 1
+    line-height: 1.58; // 2
+  }
   margin: 0; // 3
 }
 
@@ -348,7 +350,9 @@ textarea {
 
 ::-webkit-file-upload-button {
   -webkit-appearance: button; // 1
-  font: inherit; // 2
+  @if $sys-normalize-fonts-inputs == true {
+    font: inherit; // 2
+  }
 }
 
 /* Interactive elements
