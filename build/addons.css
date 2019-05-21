@@ -37,19 +37,9 @@ h3 {
   line-height: 1.22;
   letter-spacing: -0.018em; }
 
-h4, h5, h6 {
-  font-size: 20px;
-  margin: 25px 0 0 -1px;
-  padding-bottom: 4px;
-  line-height: 1.28;
-  letter-spacing: -0.016em; }
-
 h1:first-child,
 h2:first-child,
-h3:first-child,
-h4:first-child,
-h5:first-child,
-h6:first-child {
+h3:first-child {
   margin-top: 0; }
 
 blockquote, p, pre, ol, ul {
@@ -61,12 +51,6 @@ blockquote {
 code, pre {
   font-size: 17px;
   letter-spacing: 0; }
-
-pre {
-  margin-top: 4px; }
-
-pre:first-child {
-  margin-top: 0; }
 
 ol, ul {
   list-style: none;
@@ -127,20 +111,10 @@ hr {
     margin-top: 22px;
     line-height: 1.22;
     letter-spacing: -0.018em; }
-  h4, h5, h6 {
-    font-size: 18px;
-    margin-left: -1px;
-    margin-top: 18px;
-    line-height: 1.28;
-    letter-spacing: -0.016em; }
   blockquote, p, pre, ol, ul {
     margin-bottom: 21px; }
   code, pre {
     font-size: 15px; }
-  pre {
-    margin-top: 3px; }
-  pre:first-child {
-    margin-top: 0; }
   ul > li::before {
     font-size: 14.4px; }
   hr {

@@ -116,11 +116,11 @@ sup {
  * 2. Restore the coloring undone by defining the text shadow (opinionated).
  */
 ::-moz-selection {
-  background-color: #b3d4fc;
+  background-color: #b2d7ff;
   text-shadow: none; }
 
 ::selection {
-  background-color: #b3d4fc;
+  background-color: #b2d7ff;
   text-shadow: none; }
 
 /* Embedded content
@@ -157,9 +157,6 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.58;
   margin: 0; }
 
 /*
@@ -273,8 +270,7 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit; }
+  -webkit-appearance: button; }
 
 /* Interactive elements
    ========================================================================== */

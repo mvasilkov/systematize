@@ -1,6 +1,8 @@
 # Changelog
 
 ## Unreleased
+
+## 3.3.0
 * Update selection color to match macOS 10.13
 * Don't normalize font properties on form elements by default
 
