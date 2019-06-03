@@ -148,10 +148,8 @@ table {
 /* Forms
    ========================================================================== */
 /*
- * 1. Change the font family and size in all browsers (opinionated).
- * 2. Set large line height in all browsers (opinionated).
- * 3. Remove the margin in Firefox and Safari.
- */
+   * 1. Remove the margin in Firefox and Safari.
+   */
 button,
 input,
 optgroup,
@@ -266,9 +264,8 @@ textarea {
   -webkit-appearance: none; }
 
 /*
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   */
 ::-webkit-file-upload-button {
   -webkit-appearance: button; }
 

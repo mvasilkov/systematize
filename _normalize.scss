@@ -192,23 +192,36 @@ table {
 /* Forms
    ========================================================================== */
 
-/*
- * 1. Change the font family and size in all browsers (opinionated).
- * 2. Set large line height in all browsers (opinionated).
- * 3. Remove the margin in Firefox and Safari.
- */
+@if $sys-normalize-fonts-inputs {
+  /*
+   * 1. Change the font family and size in all browsers (opinionated).
+   * 2. Set large line height in all browsers (opinionated).
+   * 3. Remove the margin in Firefox and Safari.
+   */
 
-button,
-input,
-optgroup,
-select,
-textarea {
-  @if $sys-normalize-fonts-inputs == true {
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
     font-family: inherit; // 1
     font-size: 100%; // 1
     line-height: 1.58; // 2
+    margin: 0; // 3
   }
-  margin: 0; // 3
+}
+@else {
+  /*
+   * 1. Remove the margin in Firefox and Safari.
+   */
+
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    margin: 0; // 1
+  }
 }
 
 /*
@@ -343,15 +356,24 @@ textarea {
   -webkit-appearance: none;
 }
 
-/*
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
+@if $sys-normalize-fonts-inputs {
+  /*
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
 
-::-webkit-file-upload-button {
-  -webkit-appearance: button; // 1
-  @if $sys-normalize-fonts-inputs == true {
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; // 1
     font: inherit; // 2
+  }
+}
+@else {
+  /*
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   */
+
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; // 1
   }
 }
 

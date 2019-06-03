@@ -28,6 +28,14 @@ Additionally, systematize.scss aims to do the following:
 
 [CodePen][demo-codepen]
 
+**Variables**
+
+- **$sys-font-stack** System fonts, detailed below
+- **$sys-font-stack-mono** Monospaced fonts, detailed below
+- **$sys-selection-background** Selection background color, **#b2d7ff**
+- **$sys-selection-color** Selection text color (not set by default)
+- **$sys-normalize-fonts-inputs** Normalize font properties on form elements (off by default)
+
 **System Fonts**
 
 | Font family name | Why
